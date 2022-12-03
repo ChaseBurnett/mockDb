@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "uid": "akUdLQpFyrcxCJQqwEWwf06QqPg1",
+      "userName": "Heavy Bottom Daddy",
+      "beltRank": "blue",
+      "age": 34,
+      "weightClass": "Super Heavy",
+      "img": "../img/profile/splinter.jpg",
+      "gym": "RMA BJJ"
+    },
+    {
+      "uid": 2,
+      "userName": "TheShredder",
+      "email": "OrokuSaki@hotmail.com",
+      "beltRank": "Brown",
+      "age": 40,
+      "weightClass": "Ultra Heavy",
+      "img": "../img/profile/shredder.jpg",
+      "gym": "Renzo Gracie BJJ"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "uid": "akUdLQpFyrcxCJQqwEWwf06QqPg1",
+      "date": "11/29/2022",
+      "classLocation": "RMA BJJ",
+      "classDescription": "Tonight we worked on Bow and Arrow Choke from Turtle Position!",
+      "skillUrl": "https://www.youtube.com/embed/w0SyhblV76Q",
+      "reallyGood": true,
+      "good": false,
+      "okay": false,
+      "terrible": false,
+      "improvementBox": "Need to work on my gas tank! Getting too tired during rolls."
+    },
+    {
+      "id": 2,
+      "uid": "akUdLQpFyrcxCJQqwEWwf06QqPg1",
+      "date": "12/01/2022",
+      "classLocation": "RMA BJJ",
+      "classDescription": "Worked on worm guard sweep",
+      "skillUrl": "https://www.youtube.com/embed/ewBiMOU6gUk",
+      "reallyGood": false,
+      "good": true,
+      "okay": false,
+      "terrible": false,
+      "improvementBox": "Really liked worm guard, need to add that into my game more."
+    },
+    {
+      "id": 3,
+      "uid": "akUdLQpFyrcxCJQqwEWwf06QqPg1",
+      "date": "12/03/2022",
+      "classLocation": "RMA BJJ",
+      "classDescription": "Triangle Choke from Lasso!",
+      "skillUrl": "https://www.youtube.com/embed/DXYwICronlg",
+      "reallyGood": false,
+      "good": false,
+      "okay": false,
+      "terrible": true,
+      "improvementBox": "Big ass feet keep getting stuck when I throw the lasso in."
+    }
+  ]
+}

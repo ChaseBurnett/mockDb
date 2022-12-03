@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "dick.tracy@net.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "email": "batman@Wayne.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "email": "blah@me.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "email": "sparky@bark.com",
+      "isStaff": true
+    }
+  ],
+  "customers": [],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 2,
+      "fullName": "Jeremy Bakker",
+      "startDate": "09/28/2022",
+      "payRate": 300, 
+      "storeId" : 2
+    },
+    {
+      "id":2,
+      "userId": 4,
+      "fullName": "Franchot Slator",
+      "startDate": "11/13/2022",
+      "payRate": 275, 
+      "storeId" : 4
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "address": "6842 Hugh Lakes",
+      "squareFootage": 300
+    },
+    {
+      "id": 2,
+      "address": "94381 Heller Isle",
+      "squareFootage": 250
+    },
+    {
+      "id": 3,
+      "address": "6842 Hugh Lakes",
+      "squareFootage": 200
+    },
+    {
+      "id": 4,
+      "address": "10031 Kuhic Cliffs",
+      "squareFootage": 225
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Sour Gummy Worms",
+      "price": 3.50,
+      "productTypesId": 1
+    },
+    {
+      "id": 2,
+      "name": "Peach-O's",
+      "price": 1.65,
+      "productTypesId": 1
+    },
+    {
+      "id": 3,
+      "name": "Snickers",
+      "price": 5.00,
+      "productTypesId": 2
+    },
+    {
+      "id": 4,
+      "name": "Reese's",
+      "price": 4.75,
+      "productTypesId": 2
+    },
+    {
+      "id": 5,
+      "name": "Tootsie Roll",
+      "price": 1.00,
+      "productTypesId": 3
+    },
+    {
+      "id": 6,
+      "name": "Jelly Bean's",
+      "price": 1.50,
+      "productTypesId": 3
+    },
+    {
+      "id": 7,
+      "name": "Dr.Pepper",
+      "price": 2.05,
+      "productTypesId": 4
+    },
+    {
+      "id": 8,
+      "name": "Mike's Hard Lemonade",
+      "price": 5.50,
+      "productTypesId": 4
+    },
+    {
+      "id": 9,
+      "name": "Coca-Cola",
+      "price": 1.20,
+      "productTypesId": 4
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Gummy"
+    },
+    {
+      "id": 2,
+      "name": "Candy Bar"
+    },
+    {
+      "id": 3,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 4,
+      "name": "Soda"
+    }
+  ],
+  "purchases": []
+}
