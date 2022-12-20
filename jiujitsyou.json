@@ -2,8 +2,8 @@
   "users": [
     {
       "uid": "akUdLQpFyrcxCJQqwEWwf06QqPg1",
-      "userName": "Heavy Bottom Daddy",
-      "beltRank": "blue",
+      "userName": "Heavy Daddy",
+      "beltRank": "Blue",
       "age": 34,
       "weightClass": "Super Heavy",
       "img": "../img/profile/splinter.jpg",
@@ -22,17 +22,14 @@
   ],
   "posts": [
     {
-      "id": 1,
       "uid": "akUdLQpFyrcxCJQqwEWwf06QqPg1",
       "date": "11/29/2022",
       "classLocation": "RMA BJJ",
       "classDescription": "Tonight we worked on Bow and Arrow Choke from Turtle Position!",
       "skillUrl": "https://www.youtube.com/embed/w0SyhblV76Q",
-      "reallyGood": true,
-      "good": false,
-      "okay": false,
-      "terrible": false,
-      "improvementBox": "Need to work on my gas tank! Getting too tired during rolls."
+      "sessionMoodsId": 3,
+      "improvementBox": "Need to work on my gas tank! Getting too tired during rolls.",
+      "id": 1
     },
     {
       "id": 2,
@@ -41,10 +38,7 @@
       "classLocation": "RMA BJJ",
       "classDescription": "Worked on worm guard sweep",
       "skillUrl": "https://www.youtube.com/embed/ewBiMOU6gUk",
-      "reallyGood": false,
-      "good": true,
-      "okay": false,
-      "terrible": false,
+      "sessionMoodsId": 1,
       "improvementBox": "Really liked worm guard, need to add that into my game more."
     },
     {
@@ -54,11 +48,56 @@
       "classLocation": "RMA BJJ",
       "classDescription": "Triangle Choke from Lasso!",
       "skillUrl": "https://www.youtube.com/embed/DXYwICronlg",
-      "reallyGood": false,
-      "good": false,
-      "okay": false,
-      "terrible": true,
+      "sessionMoodsId": 4,
       "improvementBox": "Big ass feet keep getting stuck when I throw the lasso in."
+    },
+    {
+      "uid": "akUdLQpFyrcxCJQqwEWwf06QqPg1",
+      "date": "12/09/2022",
+      "classLocation": "RMA",
+      "classDescription": "Fun class! Worked on Single X sweep into Smash pass",
+      "skillUrl": "https://www.youtube.com/embed/seiV_GPSxLY",
+      "sessionMoodsId": 2,
+      "improvementBox": "Work on some more sweeps from standing with bigger guys instead of just pulling guard and getting smashed ",
+      "id": 4
+    },
+    {
+      "uid": "akUdLQpFyrcxCJQqwEWwf06QqPg1",
+      "date": "12/14/2022",
+      "classLocation": "RMA",
+      "classDescription": "Fun! Small class. We worked on Polish Worm Rider ",
+      "skillUrl": "https://www.youtube.com/embed/Aj9NnfpEYG0",
+      "sessionMoodsId": 2,
+      "improvementBox": "Keep working on stand up and then trying to pass if they pull guard. ",
+      "id": 5
+    },
+    {
+      "uid": "akUdLQpFyrcxCJQqwEWwf06QqPg1",
+      "date": "12/19/2022",
+      "classLocation": "RMA",
+      "classDescription": "Really fun. Ismael is in town and I always learn so much from him. We worked on passing Single Leg X and then going into a head n arm triangle ",
+      "skillUrl": "https://www.youtube.com/embed/NyxN2p1E3x8",
+      "sessionMoodsId": 1,
+      "improvementBox": "Need to start using more Spider, and Single X when playing guard ",
+      "id": 6
+    }
+  ],
+  "sessionMoods": [
+    {
+      "id": 1,
+      "mood": "Really Good"
+    },
+    {
+      "id": 2,
+      "mood": "Good"
+    },
+    {
+      "id": 3,
+      "mood": "Okay"
+    },
+    {
+      "id": 4,
+      "mood": "Terrible"
     }
   ]
 }
